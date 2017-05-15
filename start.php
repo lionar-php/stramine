@@ -4,7 +4,7 @@ use kernel\application;
 use kernel\router;
 use function filesystem\require_recursive;
 
-require  __DIR__ . '/vendor/autoload.php';
+require  __DIR__ . '/../../autoload.php';
 
 
 $router = new router;
