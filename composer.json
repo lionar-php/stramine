@@ -1,0 +1,45 @@
+{
+	"name": "lionar/stramine",
+	"description": "The base to build human readable application's from.",
+	"keywords": [ "Lionar", "Stramine", "Project setup" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"illuminate/container": "5.4.*"
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"": [ "./" ]
+   	 	},
+   	 	"files": [
+   	 		"helpers/classes.php",
+   	 		"helpers/debugging.php",
+   	 		"helpers/filesystem.php",
+   	 		"helpers/paths.php",
+   	 		"helpers/readability.php",
+   	 		"helpers/serialization.php",
+   	 		"helpers/text.php"
+   	 	]
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			
+		},
+		"files": [
+			
+		]
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
